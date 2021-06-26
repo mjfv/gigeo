@@ -1,0 +1,15 @@
+// main.scss # Manifest File
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+//vendors
+@import 'vendors/bootstrap/bootstrap';
+//base
+@import 'layout/header';
+@import 'layout/profile';
+@import 'components/navigation';
+//pages
+//themes
+
+

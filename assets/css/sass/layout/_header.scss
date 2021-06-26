@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  &__img {
+      object-fit: cover;
+      width: 100%;
+      @include response-to('device-xsmall') {
+        height: 10vh;
+      }
+      @include response-to('device-small') {
+        height: 30vh;
+      }
+  }
+}

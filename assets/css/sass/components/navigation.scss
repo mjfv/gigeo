@@ -1,0 +1,17 @@
+.navbar {
+    &__tog {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__container-tog {
+        flex-wrap: nowrap !important;
+    }
+    &__tog-buttons {
+        flex-direction: row;
+        justify-content: flex-end !important;
+    }
+    &__button-tog {
+        display: flex;
+        border: 0;
+    }
+}
